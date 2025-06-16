@@ -1,36 +1,28 @@
 # Budget_allocation_app
 
 ## Overview
- The Budget Allocation App is a command-line interface (CLI) tool designed to help users optimize their monthly income through tailored budgeting and expense planning. 
-The app calculates how users can best allocate their income across various expense categories by allocating remaining income after fixed expense have been deducted. It provides a visual breakdown of spending into categories displaying in table format and in a pie chart in .png format.
+The Budget Allocation App is a command-line interface (CLI) tool designed to help users optimize their monthly income through tailored budgeting and expense planning. The app calculates how users can best allocate their income across various expense categories by distributing the remaining income after fixed expenses have been deducted. It provides a visual breakdown of spending in table format and a pie chart saved as a PNG file.
 
 ## Features
-   #### User Input: Collects monthly income and fixed expenses from the user.
-   #### Budget Allocation: Calculates the budget and allocates for various categories such as Savings, Investments, Dining Out, and Guilt-Free Spending post     expenses deductions.
-   #### Budget Visualization: Displays formated budgeted in tables and a pie chart representing the budget breakdown.
+- Collects monthly income and fixed expenses from the user.
+- Calculates budget allocation for categories such as Savings, Investments, Dining Out, and Guilt-Free Spending after fixed expenses.
+- Displays formatted budget tables and a pie chart visualization.
+- Supports multiple calculations.
+- Includes error handling and input validation.
 
-   #### Supports multiple calculations
-   #### Includes error handling and input validation
+## System Requirements
+- Python 3.8 or higher.
+- Required Python libraries (install via pip):
+  - `matplotlib`
+  - `tabulate`
+  - `colorama`
+  - `pyfiglet`
 
-## System Requirements:
-   #### Before running the app, ensure you have the following installed:
-   #### Python 3.x (Recommended: Python 3.8+)
-   The following Python libraries (can be installed using 'pip')
-   - 'matplotlib': For visualizing the budget allocation in a pie chart.
-   - 'tabulate': For formatting the budget data into a table.
-   - 'colorama': For terminal text formatting (used to display colorful output).
-   - 'pyfiglet': For printing the app header in an ASCII art style.
+Install dependencies by running:
+```bash
+pip install matplotlib tabulate colorama pyfiglet
+```
 
-   You can install these dependencies by running:
-           ```bash
-            pip install matplotlib tabulate colorama pyfiglet
-           ```
-
-   Recommended operating systems, with memory of minimum 2GB RAM (for smooth execution of the script) :
-   - Windows
-   - MacOS
-   - Linux
-    
 ## Installation Steps
 Inside the terminal:
 
@@ -54,7 +46,7 @@ Inside the terminal:
    
    Create virtual environment in your chosen IDE
    ```
-   python -m venv .venv
+   python3 -m venv .venv
    ```
    Activate the environment
    macOS/Unix
